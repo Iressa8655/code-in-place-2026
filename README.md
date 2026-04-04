@@ -54,9 +54,9 @@ My Python learning journey through \[Stanford Code in Place](https://codeinplace
 
 \### Python Control Flow
 
-\- \[ ] Double It
+\- \[x] Double It
 
-\- \[ ] Joke Bot
+\- \[x] Joke Bot
 
 \- \[x] Khansole Academy
 
