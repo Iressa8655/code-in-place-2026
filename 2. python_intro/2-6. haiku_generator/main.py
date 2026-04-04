@@ -38,17 +38,7 @@ response = call_gpt("Your prompt here...")
 
 
 This is optional. Have fun!"""
-pip install anthropic
-set ANTHROPIC_API_KEY=your_key_here
-import anthropic
-client = anthropic.Anthropic()
-message = client.messages.create(
-    model="claude-haiku-4-5-20251001",
-    max_tokens=1024,
-    messages=[{"role": "user", "content": "your prompt here"}]
-)
-print(message.content[0].text)
-
+from ai import call_gpt
 
 def main():
     # TODO: your code here
