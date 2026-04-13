@@ -41,15 +41,14 @@ CANVAS_HEIGHT = 300
 
 def main():
     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
-    canvas.create_rectangle
-    (
+    canvas.create_rectangle(
     0, 
     0, 
     CANVAS_WIDTH , 
     CANVAS_HEIGHT/2,
     "red"
     )
-    
+    #The key is the ( must immediately follow the function name — that's what tells Python "this is a function call that continues on the next lines.
 
 if __name__ == '__main__':
     main()
